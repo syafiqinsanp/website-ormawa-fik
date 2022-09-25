@@ -1,0 +1,40 @@
+.ini{
+    padding: 100px 0;
+}
+.kecil{
+    padding: 10px 0;
+}
+@media screen and (max-width: 900px) {
+    .one img{
+        width: 100%!important;
+    }
+    .two img{
+        width: 125px;
+    }
+    .kecil{
+        font-size: 2em !important;
+    }
+    .dpm-fik{
+        text-align: center;
+        flex-direction: column;
+    }
+    h1.display-3{
+        font-size: 2.8em;
+    }
+}
+@media screen and (max-width: 384px) {
+    .one img{
+        width: 75px !important;
+        height: auto !important;
+        gap: 20px;
+    }
+    .kecil{
+        font-size: 1.8em !important;
+    }
+    .dpm-fik{
+        display: inherit !important;
+    }
+    h1.display-3{
+        font-size: 1.8em;
+    }
+}
